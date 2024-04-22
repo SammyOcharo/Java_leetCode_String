@@ -17,5 +17,8 @@ class LetterCombinationOfPhoneTest {
         assertEquals(arr, LetterCombinationOfPhone.letterCombinations("23"));
         assertEquals(arr1, LetterCombinationOfPhone.letterCombinations("2"));
         assertEquals(arr2, LetterCombinationOfPhone.letterCombinations(""));
+        assertNotEquals(arr2, LetterCombinationOfPhone.letterCombinations("2"));
+        assertNotEquals(arr, LetterCombinationOfPhone.letterCombinations(""));
+        assertNotEquals(arr1, LetterCombinationOfPhone.letterCombinations(""));
     }
 }
