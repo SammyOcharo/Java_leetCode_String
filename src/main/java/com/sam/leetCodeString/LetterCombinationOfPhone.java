@@ -29,7 +29,6 @@ public class LetterCombinationOfPhone {
 
     public static List<String> letterCombinations(String digits){
         List<String> result = new ArrayList<>();
-        System.out.println("This is the digits " + digits);
         if(digits == null || digits.isEmpty()){
             result.add("");
             return result;
