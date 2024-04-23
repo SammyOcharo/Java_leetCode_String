@@ -19,10 +19,11 @@ public class SubWordOccurrenceInString {
 
     public static int strStr(String haystack, String needle){
 
-        if(haystack.contentEquals(needle)){
+//        if(haystack.contentEquals(needle)){
+//            System.out.println(haystack.indexOf(needle));
             return haystack.indexOf(needle);
-        }else{
-            return -1;
-        }
+//        }else{
+//            return -1;
+//        }
     }
 }
