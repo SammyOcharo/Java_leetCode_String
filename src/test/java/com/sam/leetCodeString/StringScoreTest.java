@@ -10,5 +10,6 @@ class StringScoreTest {
     void scoreOfString() {
         assertEquals(13, StringScore.scoreOfString("hello"));
         assertEquals(50, StringScore.scoreOfString("zaz"));
+        assertNotEquals(35, StringScore.scoreOfString("same"));
     }
 }
