@@ -26,7 +26,6 @@ public class DefangingAddress {
         String word = "[.]";
 
         for(Character s: ipAddress.toCharArray()){
-            System.out.println(s);
             if(s == '.'){
                 newIpAddress.append(word);
             }else{
