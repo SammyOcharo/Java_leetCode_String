@@ -47,7 +47,7 @@ public class FinalValueOfString {
         }
 
         for (String arrOperation : arrOperations) {
-            if (arrOperation.contains("+")) {
+            if (arrOperation.contains("++")) {
                 total += 1;
             } else {
                 total -= 1;
