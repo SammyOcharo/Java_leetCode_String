@@ -9,6 +9,6 @@ class ReversePrefixOfWordTest {
     @Test
     void reversePrefix() {
         assertEquals("dcbaefd", ReversePrefixOfWord.reversePrefix("abcdefd", 'd'));
-        assertEquals("dcbaefd", ReversePrefixOfWord.reversePrefix("abcdefd", 'd'));
+        assertEquals("zxyxxe", ReversePrefixOfWord.reversePrefix("xyxzxe", 'z'));
     }
 }

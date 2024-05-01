@@ -31,7 +31,6 @@ public class ReversePrefixOfWord {
         }
         StringBuilder newWord = new StringBuilder();
         int indexOfChar = word.indexOf(s);
-        System.out.println(indexOfChar);
         for(int i=0; i<word.length(); i++){
             if(i<=indexOfChar){
                 newWord.insert(0, word.charAt(i));
