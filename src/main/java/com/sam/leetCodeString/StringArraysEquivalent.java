@@ -32,8 +32,6 @@ public class StringArraysEquivalent {
         for(String s: word2){
             completeWord2.append(s);
         }
-        System.out.println(completeWord1);
-        System.out.println(completeWord2);
         return completeWord1.toString().equals(completeWord2.toString());
     }
 }
