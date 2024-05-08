@@ -25,5 +25,6 @@ class CountItemsMatchingRuleTest {
         );
 
         assertEquals(2, CountItemsMatchingRule.countMatches(items2, "type", "phone"));
+        assertNotEquals(3, CountItemsMatchingRule.countMatches(items2, "type", "phone"));
     }
 }
