@@ -12,5 +12,6 @@ class SubWordOccurrenceInStringTest {
         assertEquals(-1, SubWordOccurrenceInString.strStr("leetcode", "leeto"));
         assertNotEquals(-1, SubWordOccurrenceInString.strStr("sadbutsad", "sad"));
         assertEquals(7, SubWordOccurrenceInString.strStr("flabbergasted", "gas"));
+        assertNotEquals(1, SubWordOccurrenceInString.strStr("flabbergasted", "gas"));
     }
 }
